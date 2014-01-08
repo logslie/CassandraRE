@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CassandraRE-Plugin
+Bundle-SymbolicName: CassandraRE-Plugin; singleton:=true
+Bundle-Version: 1.0.2
+Bundle-Activator: cassandrare_plugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: lib/CassandraCodeRE-0.0.1-SNAPSHOT-jar-with-dependencies.jar,
+ .
