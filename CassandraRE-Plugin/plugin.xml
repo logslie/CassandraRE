@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            id="CassandraRE-Plugin.contribution1" 
+            nameFilter="persistence.xml">
+         <menu
+               label="Cassandra Reverse Engineering"
+               path="additions"
+               icon="icons/cassandra-icon.png"
+               id="CassandraRE-Plugin.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="Run"
+               class="cassandrareplugin.popup.actions.RunReverseEngineering"
+               icon="icons/play.png"
+               menubarPath="CassandraRE-Plugin.menu1/group1"
+               enablesFor="1"
+               id="CassandraRE-Plugin.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.propertyPages">
+      <page
+            name="Reverse Engineering Page"
+            nameFilter="persistence.xml"
+            icon="icons/cassandra-icon.png"
+            class="cassandrareplugin.properties.REPropertyPage"
+            id="cassandrareplugin.properties.samplePropertyPage">
+         <enabledWhen>
+            <instanceof
+                  value="org.eclipse.core.resources.IFile">
+            </instanceof>
+         </enabledWhen>
+      </page>
+   </extension>
+
+</plugin>
