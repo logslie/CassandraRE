@@ -1,4 +1,4 @@
-package com.indigital.dao;
+package com.logslie.dao;
 
 import java.util.ArrayList;
 import java.util.List;

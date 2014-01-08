@@ -2,7 +2,7 @@
  * Copyright 2012 INdigital telecom
  * Creation Date: May 25, 2012
  */
-package com.indigital.handler;
+package com.logslie.handler;
 
 import java.io.BufferedWriter;
 import java.io.File;

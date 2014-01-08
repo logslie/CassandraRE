@@ -1,4 +1,4 @@
-package com.indigital.CassandraCodeRE;
+package com.logslie.CassandraCodeRE;
 
 import java.io.File;
 import java.util.Iterator;
@@ -10,8 +10,8 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import com.indigital.handler.ConnectionHandler;
-import com.indigital.handler.KeyspaceHandler;
+import com.logslie.handler.ConnectionHandler;
+import com.logslie.handler.KeyspaceHandler;
 
 /**
  * This class run the code reverse engineering of a Keyspace from Cassandra

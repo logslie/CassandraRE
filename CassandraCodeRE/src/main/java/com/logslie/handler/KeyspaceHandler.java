@@ -2,7 +2,7 @@
  * Copyright 2012 INdigital telecom
  * Creation Date: May 23, 2012
  */
-package com.indigital.handler;
+package com.logslie.handler;
 
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 
-import com.indigital.dao.KeyspaceDao;
+import com.logslie.dao.KeyspaceDao;
 
 import me.prettyprint.hector.api.Cluster;
 import me.prettyprint.hector.api.factory.HFactory;

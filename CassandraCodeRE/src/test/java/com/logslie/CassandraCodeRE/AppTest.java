@@ -1,4 +1,4 @@
-package com.indigital.CassandraCodeRE;
+package com.logslie.CassandraCodeRE;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

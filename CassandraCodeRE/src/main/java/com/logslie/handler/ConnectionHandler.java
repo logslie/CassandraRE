@@ -2,7 +2,7 @@
  * Copyright 2012 INdigital telecom
  * Creation Date: May 23, 2012
  */
-package com.indigital.handler;
+package com.logslie.handler;
 
 import me.prettyprint.hector.api.Cluster;
 
